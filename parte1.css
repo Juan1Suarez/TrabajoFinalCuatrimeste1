@@ -1,0 +1,58 @@
+body {
+    background-color: black
+}
+
+.containertit {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 1864px;
+    height: 150px;
+    background-color: rgb(100, 100, 221);
+}
+
+.carrusel img {
+    height: 600px;
+}
+
+.datos {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: gold;
+    color: white;
+    border-style: solid;
+    border-color: red;
+}
+
+.containerform {
+    width: 940px;
+    float: left;
+}
+
+.containerform2 {
+    width: 920px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.form-check {
+    color: white;
+    background-color: green;
+    width: 375px;
+    height: 20px;
+    border-style: solid;
+    border-color: rgb(6, 117, 49);
+
+}
+
+.boton {
+    position: absolute;
+    right: 0px;
+    top: 235px
+}
