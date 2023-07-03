@@ -11,6 +11,11 @@ const enviarFormulario = () => {
   const emailInput = document.getElementById('email');
   const telInput = document.getElementById('tel');
   const codigoInput = document.getElementById('codigo');
+  const terminosInput = document.getElementById("terminos")
+  const noticiasInput = document.getElementById ("noticias")
+  const paisInput = document.getElementById("pais")
+  const premioInput = document.getElementById("premio")
+  const nacimientoInput = document.getElementById("nacimiento")
   
 
 
@@ -62,19 +67,25 @@ const enviarFormulario = () => {
 
 
 
+
+
 if(formularioCorrecto) {
   console.log("nombre ", nombreInput.value);
   console.log("apellido", apellidoInput.value);
   console.log("email", emailInput.value);
   console.log("tel", telInput.value);
   console.log("codigo", codigoInput.value);
+  console.log("terminos ", terminosInput.checked )
+  console.log("noticias", noticiasInput.checked)
+  console.log("pais",paisInput.value)
+  console.log("premio",premioInput.value)
+  console.log("nacimiento",nacimientoInput.value)
 
 } else{
   console.log("Formulario incorrecto")
 }
 
 }
-
 
 
 

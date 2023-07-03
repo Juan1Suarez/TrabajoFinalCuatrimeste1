@@ -62,3 +62,9 @@ body {
     right: 630px;
     height: 55px;
 }
+.imagen{
+    display: flex;
+    position: absolute;
+    right: 17px;
+    top: 900px;
+}
