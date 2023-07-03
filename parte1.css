@@ -1,5 +1,5 @@
 body {
-    background-color: white
+    background-color: gainsboro
 }
 
 .containertit {
@@ -55,4 +55,10 @@ body {
 }
 .mensaje-error{
     color: red;
+}
+
+.CR7{
+    position: absolute;
+    right: 630px;
+    height: 55px;
 }
