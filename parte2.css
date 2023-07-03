@@ -1,19 +1,28 @@
-body{ background-color: rgb(46, 46, 46);
+body{ background-color: white;
 }
 
 .titulo{
-    Height: 50px;
-    width: 20000px;
+    Height: 100px;
+    width: 1879px;
     color: white;
     background-color: black;
     border-style: solid;
     border-color:rgb(102, 2, 2)
 }
-.subtitulo{
-    Height: 30px;
-    width: 570px;
+
+
+.contenedors{
+background-color: violet;
+width: 1879px;
+height: 1000px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
     color: white;
-    background-color: rgb(65, 33, 33);
-    border-style: solid;
-    border-color:rgb(51, 0, 0)
 }
