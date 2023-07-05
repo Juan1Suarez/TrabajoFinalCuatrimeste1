@@ -1,7 +1,7 @@
 const input = document.querySelector("input");
 const añadirboton = document.querySelector(".añadirboton");
 const ul = document.querySelector("ul");
-const tareaspe = document.querySelector(".tareaspe");
+const tareaspen = document.querySelector(".tareaspen");
 
 añadirboton.addEventListener("click", (e) => {
   e.preventDefault();
@@ -18,7 +18,7 @@ añadirboton.addEventListener("click", (e) => {
     ul.appendChild(li);
 
     input.value = "";
-    tareaspe.style.display = "none";
+    tareaspen.style.display = "none";
   }
 });
 
@@ -35,7 +35,7 @@ function añadirbotonborrar() {
     const items = document.querySelectorAll("li");
 
     if (items.length === 0) {
-      tareaspe.style.display = "block";
+      tareaspen.style.display = "block";
     }
   });
 
