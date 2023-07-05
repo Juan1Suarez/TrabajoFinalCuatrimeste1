@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de tareas!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./parte2.js"></script>
+    <title>¡Lista de Tareas 2000!</title>
     <link rel="stylesheet" href="./parte2.css">
 </head>
-
 <body>
 
     <div class="titulo">
-        <h1>Listado de tareas 2000</h1>
-        <div>¡En este lugar podes listar todas tus tareas hechas y las que quedan por hacer! </div>
-    </div>
-    <br>
-<div class="form">
-    <input type="text" id="tituloTarea">
-    <button class="agregar" id="btnAgregarTarea" onclick="agregarTarea()">Añadir</button>
-</div>
-<div class="contenedor" id="contenedor">
-    <div>Tarea 1</div>
-    <div>Tarea 2</div>
-    <div>Tarea 3</div>
-</div>
+        <h1>Lista de tareas 2000!</h1>
+        <h2>Acá podes poner todas tus tareas que te faltan por hacer!</h2>
+
+        <div class="contenedor">
+            <h1 class="lista">Lista de Tareas</h1>
+            <div>
+                <form>
+                    <input class="input" type="text" placeholder="Nueva tarea">
+                    <button class="añadirboton">Agregar</button>
+                </form>
+            </div>
+            <div class="contenedorli">
+                <ul class="tareas">
+                    
+                </ul>
+            </div>
+            <div class="tareaspe">
+                <p>No hay tareas pendientes</p>
+            </div>
+        </div>
+        <script src="./parte2.js"></script>
 
 </body>
-
 </html>
